@@ -1,0 +1,101 @@
+
+.ads-container{
+    @include tablet{
+         @include grid(3, 1rem);
+    }
+ 
+ }
+ 
+ 
+ .ads-container-index{
+ 
+     @include tablet{
+         @include grid(3, 2rem);
+     }
+ }
+ 
+ .ad{
+     background-color: lighten($gray, 5);
+     border: 1px solid darken($darkGray,10);
+     margin-bottom: 2rem;
+ 
+     .ad-container{
+         padding: 2rem;
+     }
+ 
+     h3, p{
+         margin: 0;
+         overflow-wrap: break-word;
+     }
+ 
+     h3{
+         min-height: 11.5rem;
+     }
+ 
+     .description{
+         overflow-y: auto;
+         height: 25.2rem;
+         text-align: left;
+     }
+ 
+ 
+ }
+ 
+ 
+ .price{
+     color: $green;
+     font-weight: $bold;
+     font-size: 3rem;
+ }
+ 
+ .icons-features{
+     display: flex;
+     list-style: none;
+     padding: 0;
+     justify-content: space-between;
+     max-width: 40rem;
+ 
+ 
+     li{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: .2rem;
+ 
+         @include tablet{
+             gap: .8rem;
+             flex-direction: row;
+         }
+ 
+         img{
+ 
+             @include desktop{
+                width: 3rem;
+             }
+         }
+ 
+         p{
+             font-weight: $black;
+         }
+     }
+ 
+ 
+ }
+ 
+ 
+ .ad-image-container {
+ 
+     
+     img{
+         height: 25rem;
+         object-fit: cover;
+     }
+ }
+ 
+ 
+ .property-summary {
+ 
+     .description{
+         text-align: justify;
+     }
+ }

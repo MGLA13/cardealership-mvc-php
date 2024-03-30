@@ -1,0 +1,13 @@
+.aboutus-content{
+
+
+    @include tablet{
+        @include grid(2, 2rem);
+    }
+
+    h4{
+        margin: 0;
+        font-size: 2.2rem;
+        padding: 1rem 0 3rem 0;
+    }
+}

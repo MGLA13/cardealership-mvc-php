@@ -1,0 +1,54 @@
+.dark-mode{
+    background-color: darken($darkGray, 10);
+
+    p, h1, h2, h3, h4, h5, h6{
+        color: $gray;
+    }
+
+    .ad{
+        background-color: $darkGray;
+        border: 1px solid $darkGray;
+
+        .price{
+            color: $green;
+        }
+
+        picture img{
+            color: $white;
+        }
+    }
+
+    .icons-features li img{
+        filter: invert(100%);
+    }
+
+    .property-summary{
+
+        .price{
+            color: $green;
+        }
+    }
+
+    .form{
+        
+        label, legend, p{
+            color: $white;
+        }
+
+        input:not([type="submit"]),
+        textarea,
+        select{
+            background-color: $darkGray;
+            border: 1px solid $darkGray;
+            color: $white;
+        }
+    }
+
+    .properties{
+
+        th{
+            color: $white;
+        }
+    }
+
+}

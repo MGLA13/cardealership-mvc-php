@@ -1,0 +1,32 @@
+
+
+.no-webp .contact-image{
+    background-image: url(../img/find.jpg);
+}
+
+.webp .contact-image{
+    background-image: url(../img/find.webp);
+}
+
+.contact-image{
+    background-position: center center;
+    background-size: cover;
+    margin-top: 3rem;
+    padding: $separation 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+        font-size: 4rem;
+        font-weight: $bold;
+        color: $white
+    }
+
+    p{
+        font-size: 1.8rem;
+        color: $white;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,20 @@
+.yellow-buttom-block{
+    @include button($yellow, block);
+}
+
+.yellow-buttom{
+    @include button($yellow, inline-block);
+}
+
+.bg-green{
+    @include button($green, inline-block);
+}
+
+.red-buttom-block{
+    @include button($red, block);
+    width: 100%;
+}
+
+.green-buttom-block{
+    @include button($green, block);
+}
