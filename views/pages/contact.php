@@ -2,7 +2,7 @@
         <h1>Contact us</h1>
 
         <?php if($message): ?>
-            <p class="alert success"><?php echo $message; ?></p>     
+            <p class="alert <?php echo $alertType ?>"><?php echo $message; ?></p>     
         <?php endif; ?>
 
         <picture>

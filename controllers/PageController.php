@@ -125,13 +125,16 @@ class PageController{
             //Send email
             if($mail->send()){
                 $message = "Message has been send";
+                $alertType = "success";
             }else{
                 $message = "Message has not been send";
+                $alertType = "error";
             }
         }
 
         $router->render("pages/contact",[
-            "message" => $message
+            "message" => $message,
+            "alertType" => $alertType
         ]);
     }
 
