@@ -17,8 +17,8 @@
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Database configuration](#database-configuration)
-  - [Local environment variables](#local-environment-variables)
   - [Project packages](#project-packages)
+  - [Local environment variables](#local-environment-variables)
   - [Use project](#use-project)
   - [Folders](#folders)
   - [Built with](#built-with)
@@ -42,7 +42,7 @@ Some of the project's features:
 
 ## Getting Started
 
-Clone and save the repository of the project or download ZIP folder.
+Clone and save the repository or download ZIP folder.
 
 ```bash
 git clone git@github.com:MGLA13/cardealership-mvc-php.git
@@ -50,35 +50,28 @@ git clone git@github.com:MGLA13/cardealership-mvc-php.git
 
 ### Database configuration
 
-Create a database in MySQL with the name: cardealership.
+Create a database in MySQL with the name: **cardealership**.
 
 Import `sql/data.sql` into your MySQL management or access to mysql in your terminal and run every query.
 
 The tables of the database are:
 
-![]()
+![](https://raw.githubusercontent.com/MGLA13/cardealership-mvc-php/main/imgs/tableCars.png)
 
-Table cars for save the information of the cars
+Table cars for save the information of the cars.
 
-![]()
+![](https://raw.githubusercontent.com/MGLA13/cardealership-mvc-php/main/imgs/tableSellers.png)
 
-Table sellers for save the information of the sellers that sell cars
+Table sellers for save the information of the sellers that sell cars.
 
-![]()
+![](https://raw.githubusercontent.com/MGLA13/cardealership-mvc-php/main/imgs/tableUsers.png)
 
-Table users for save the information of the admin user
-
-
-### Local environment variables
-
-Open the project in a some code editor as VS Code.
-
-create inside the folder `includes` a file named **.env** to set local environment variables:
-
-![]()
+Table users for save the information of the admin user.
 
 
 ### Project packages
+
+Open the project in a some code editor as VS Code.
 
 Open a new terminal in the editor. 
 
@@ -93,6 +86,14 @@ Install PHP packages:
 ```bash
 composer install
 ```
+
+
+### Local environment variables
+
+create inside the folder `includes` a file named **.env** to set local environment variables:
+
+![](https://raw.githubusercontent.com/MGLA13/cardealership-mvc-php/main/imgs/variables.png)
+
 
 ### Use project
 
