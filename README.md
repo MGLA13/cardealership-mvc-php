@@ -118,6 +118,8 @@ You can login as admin user at **localhost:3000/login** and edit the information
 *   E-mail: correo@example.com
 *   Password: 123456
 
+You can go to **localhost:3000/contact** and send a message to a some email. To test this you need use an SMTP service like Gmail, Office365, Brevo, Mailtrap, AWS, etc and set your credentials in the local environment variables.
+
 
 ### Folders
 
@@ -154,6 +156,7 @@ Technologies used in the project:
 * [PHP](https://www.php.net/manual/en/install.phpI) - Install PHP documentation
 * [Sass language](https://sass-lang.com/) - SASS official page
 * [MVC pattern](https://developer.mozilla.org/en-US/docs/Glossary/MVC) - MVC documentation
+* [SMTP](https://aws.amazon.com/es/what-is/smtp/) - SMTP service explication
 
 
 ## License:
