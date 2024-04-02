@@ -58,15 +58,15 @@ The tables of the database are:
 
 ![](https://raw.githubusercontent.com/MGLA13/cardealership-mvc-php/main/imgs/tableCars.png)
 
-Table cars for save the information of the cars.
+**cars** table for save the information of the cars.
 
 ![](https://raw.githubusercontent.com/MGLA13/cardealership-mvc-php/main/imgs/tableSellers.png)
 
-Table sellers for save the information of the sellers that sell cars.
+**sellers** table for save the information of the sellers that sell cars.
 
 ![](https://raw.githubusercontent.com/MGLA13/cardealership-mvc-php/main/imgs/tableUsers.png)
 
-Table users for save the information of the admin user.
+**users** table for save the information of the admin user.
 
 
 ### Project packages
