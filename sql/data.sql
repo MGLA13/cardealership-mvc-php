@@ -10,7 +10,7 @@
 
 
 
--- Table cars for save the information of the cars
+-- cars table for save the information of the cars
 CREATE TABLE `cars` (
   `id` int NOT NULL AUTO_INCREMENT,
   `title` varchar(45) DEFAULT NULL,
@@ -28,7 +28,7 @@ CREATE TABLE `cars` (
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4;
 
 
--- Table sellers for save the information of the sellers that sell cars
+-- sellers table for save the information of the sellers that sell cars
 CREATE TABLE `sellers` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(45) DEFAULT NULL,
@@ -38,7 +38,7 @@ CREATE TABLE `sellers` (
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
 
 
--- Table users for save the information of the admin user
+-- users table for save the information of the admin user
 CREATE TABLE `users` (
   `id` int NOT NULL AUTO_INCREMENT,
   `email` varchar(45) NOT NULL,
@@ -47,7 +47,7 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
 
 
--- Records for the table cars
+-- Records for the cars table
 INSERT INTO `cars` (`id`, `title`, `price`, `image`, `description`, `year`, `mileage`, `colour`, `create_date`, `seller_id`) VALUES 
 (1, 'Audi A1', 599900.00, '23fc83248f97f65d825988d0b6d72e40.jpg', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ar?
 ', '2020', 234557, 'yellow', '2024-02-08', 2),
@@ -60,11 +60,11 @@ INSERT INTO `cars` (`id`, `title`, `price`, `image`, `description`, `year`, `mil
 (7, 'RAM 2500', 1579900.00, '97e7f986266929a5ff8d218549d32965.jpg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nunc diam, volutpat eu massa et, rutrum egestas dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pr', '2022', 94326, 'white', '2024-02-09', 3);
 
 
--- Records for the table sellers
+-- Records for the sellers table
 INSERT INTO `sellers` (`id`, `name`, `last_name`, `phone_number`) VALUES 
 (2, 'Luis', 'Torres', '2223334442'),
 (3, 'Karla', 'Vazquez', '2223334445');
 
 
--- Records for the users
+-- Records for the users table
 INSERT INTO `users` (`id`, `email`, `password`) VALUES (1, 'correo@example.com', '$2y$10$hRDcMdZVRgHVYRKb8wWnfur2r87JZKUWUagw1Uv5dlU.PPlN4FpRe');
