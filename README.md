@@ -20,7 +20,7 @@
   - [Project packages](#project-packages)
   - [Local environment variables](#local-environment-variables)
   - [Use project](#use-project)
-  - [Folders](#folders)
+  - [Directories](#directories)
   - [Built with](#built-with)
 - [Learn more](#learn-more)
 - [License](#license)
@@ -42,7 +42,7 @@ Some of the project's features:
 
 ## Getting Started
 
-Clone and save the repository or download ZIP folder.
+Clone and save the repository or download ZIP file.
 
 ```bash
 git clone git@github.com:MGLA13/cardealership-mvc-php.git
@@ -90,14 +90,14 @@ composer install
 
 ### Local environment variables
 
-create inside the folder `includes` a file named **.env** to set local environment variables:
+create inside the `includes` directory a file named **.env** to set local environment variables:
 
 ![](https://raw.githubusercontent.com/MGLA13/cardealership-mvc-php/main/imgs/variables.png)
 
 
 ### Use project
 
-To run the project, you need access to `public` folder. In the terminal run:
+To run the project, you need access to `public` directory. In the terminal run:
 
 ```bash
 cd public 
@@ -121,7 +121,7 @@ You can login as admin user at **localhost:3000/login** and edit the information
 You can go to **localhost:3000/contact** and send a message to a some email. To test this you need use an SMTP service like Gmail, Office365, Brevo, Mailtrap, AWS, etc and set your credentials in the local environment variables.
 
 
-### Folders
+### Directories
 
 *   `controllers` Contains all the controllers
 *   `imgs` Contains used images in README.md
